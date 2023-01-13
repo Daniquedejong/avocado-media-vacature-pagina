@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+:root {
+    --white: #efefef;
+    --black: #000;
+    --font-big: 'Saira';
+    --font-small: 'Mulish';
+}
+
+body {
+    margin: 0px;
+}
+
+header {
+    font-family: var(--font);
+    display: flex;
+    position: sticky;
+    padding: 40px 0;
+    top: 0;
+    z-index: 1;
+    background-color: white;
+    width: 100%;
+    border-bottom: 1px solid rgb(214, 214, 214);
+}
+
+.arrow {
+    position: fixed;
+    margin-left: 18em;
+    margin-top: -2.5em;
+    width: 8%;
+}
+
+.avocado-logo {
+    position: fixed;
+    padding: 10px;
+    margin-top: -3em;
+    width: 35%;
+}
+
+.menu-icon {
+    position: fixed;
+    width: 9%;
+    margin-left: 23em;
+    margin-top: -1em;
+}
+
+main {
+    justify-content: left;
+    padding-left: 2em;
+    padding-right: 1em;
+}
+
+.vacature {
+    text-align: center;
+    border-radius: 0.5em;
+    border: 2px var(--black);
+    border-style: solid;
+    margin-right: 1em;
+    padding-bottom: 0.5em;
+}
+
+.vacature a{
+    text-decoration: none;
+    color: var(--black)
+}
+
+h1 {
+    font-family: var(--font-big);
+    margin-top: 2em;
+}
+
+h2 {
+    font-family: var(--font-big);
+}
+
+h3 {
+    font-family: var(--font-small);
+}
+
+p {
+    font-family: var(--font-small);
+}
+
+.frontender {
+    position: relative;
+    width: 325px;
+    border-radius: 0.5em;
+}
+
+footer {
+    justify-content: left;
+    padding-left: 2em;
+    padding-right: 1em;
+}
