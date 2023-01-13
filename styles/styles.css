@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
 
 :root {
-    --white: #efefef;
+    --white: #ffff;
     --black: #000;
     --font-big: 'Saira';
     --font-small: 'Mulish';
@@ -18,15 +18,15 @@ header {
     position: sticky;
     padding: 40px 0;
     top: 0;
-    z-index: 1;
-    background-color: white;
+    z-index: 2;
+    background-color: var(--white);
     width: 100%;
     border-bottom: 1px solid rgb(214, 214, 214);
 }
 
 .arrow {
     position: fixed;
-    margin-left: 18em;
+    margin-left: 15em;
     margin-top: -2.5em;
     width: 8%;
 }
@@ -40,15 +40,50 @@ header {
 
 .menu-icon {
     position: fixed;
-    width: 9%;
-    margin-left: 23em;
+    width: 10%;
+    margin-left: 20em;
     margin-top: -1em;
 }
 
 main {
     justify-content: left;
-    padding-left: 2em;
+}
+
+.section-vacatures{
+    padding-bottom: 0.5em;
+    padding-left: 1em;
     padding-right: 1em;
+    padding-top: 2em;
+}
+
+.section-vacature1{
+    position: relative;
+    border-radius: 0.5em;  
+    margin-right: 2em;
+    margin-left: 2em;
+    margin-bottom: 3em;
+    margin-top: -3em;
+    z-index: 1;
+    padding-top: 1.5em;
+    padding-bottom: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    background-color: var(--white);
+    box-shadow: 0px -3px 10px 4px rgb(0, 0, 0, 0.1);
+}
+
+
+.background-images {
+    display: inline-flex;
+    width: 100%;
+}
+
+.avocado-background1 {
+    max-width: 50%;
+}
+
+.avocado-background2 {
+    max-width: 50%;
 }
 
 .vacature {
@@ -57,6 +92,37 @@ main {
     border: 2px var(--black);
     border-style: solid;
     margin-right: 1em;
+    margin-bottom: 3em;
+    padding-bottom: 0.5em;
+}
+
+.vacature2 {
+    text-align: center;
+    border-radius: 0.5em;
+    border: 2px var(--black);
+    border-style: solid;
+    margin-right: 1em;
+    margin-bottom: 3em;
+    padding-bottom: 0.5em;
+}
+
+.vacature3 {
+    text-align: center;
+    border-radius: 0.5em;
+    border: 2px var(--black);
+    border-style: solid;
+    margin-right: 1em;
+    margin-bottom: 3em;
+    padding-bottom: 0.5em;
+}
+
+.vacature4 {
+    text-align: center;
+    border-radius: 0.5em;
+    border: 2px var(--black);
+    border-style: solid;
+    margin-right: 1em;
+    margin-bottom: 3em;
     padding-bottom: 0.5em;
 }
 
@@ -65,9 +131,24 @@ main {
     color: var(--black)
 }
 
+.vacature2 a{
+    text-decoration: none;
+    color: var(--black)
+}
+
+.vacature3 a{
+    text-decoration: none;
+    color: var(--black)
+}
+
+.vacature4 a{
+    text-decoration: none;
+    color: var(--black)
+}
+
 h1 {
     font-family: var(--font-big);
-    margin-top: 2em;
+    margin-top: 0em;
 }
 
 h2 {
@@ -82,14 +163,24 @@ p {
     font-family: var(--font-small);
 }
 
+ul, li {
+    font-family: var(--font-small);
+}
+
 .frontender {
     position: relative;
     width: 325px;
     border-radius: 0.5em;
+    max-width: 90%;
 }
 
 footer {
     justify-content: left;
     padding-left: 2em;
     padding-right: 1em;
+}
+
+.avocado-logo-groot {
+    max-width: 30%;
+    padding-left: 6.5em;
 }
