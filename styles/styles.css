@@ -6,12 +6,16 @@
     --black: #000;
     --font-big: 'Saira';
     --font-small: 'Mulish';
+    --radius: 0.5rem;
+    --pill: 2rem;
+    --line: 0.1rem;
 }
 
 body {
     margin: 0px;
 }
 
+/*......Header.....*/
 header {
     font-family: var(--font);
     display: flex;
@@ -51,7 +55,7 @@ nav {
     max-width: 15em;
 }
 
-
+/*.....Overzichtpagina vacatures.....*/
 main {
     justify-content: left;
 }
@@ -69,7 +73,7 @@ main {
     margin-right: 2em;
     margin-left: 2em;
     margin-bottom: 3em;
-    margin-top: -3em;
+    margin-top: -2em;
     max-width: 37.5em;
     z-index: 1;
     padding-top: 1.5em;
@@ -80,13 +84,44 @@ main {
     box-shadow: 0px -3px 10px 4px rgb(0, 0, 0, 0.1);
 }
 
-.vacature1-desktop {
+/*....werkt helaas niet meer....*/
+/* .vacature1-desktop {
     display: flex;
     flex-direction: column;
     align-items: center;
+    overflow-x: scroll;
+} */
+
+.frontender {
+    position: relative;
+    width: 325px;
+    border-radius: 0.5em;
+    max-width: 90%;
 }
 
+h1 {
+    font-family: var(--font-big);
+    margin-top: 0em;
+}
 
+h2 {
+    font-family: var(--font-big);
+}
+
+h3 {
+    font-family: var(--font-small);
+}
+
+p {
+    font-family: var(--font-small);
+}
+
+ul,
+li {
+    font-family: var(--font-small);
+}
+
+/*....vacature pagina....*/
 .background-images {
     display: inline-flex;
     width: 100%;
@@ -120,35 +155,99 @@ main {
     overflow-x: scroll;
 }
 
-h1 {
-    font-family: var(--font-big);
-    margin-top: 0em;
+
+
+/*....Button-zoomin ------- werkt niet------....*/
+#solliciteer {
+    display: inline-block;
+    margin: 0.2em;
+    padding: 0.4em 0.8em;
+    background: var(--white);
+    color: var(--black);
+    border: var(--line) solid var(--black);
+    border-radius: var(--pill);
+    font-weight: normal;
+    text-decoration: none;
 }
 
-h2 {
-    font-family: var(--font-big);
+#solliciteer a:hover {
+    color: var(--white);
+    border-color: var(--white);
+    background-color: var(--black);
 }
 
-h3 {
-    font-family: var(--font-small);
-}
-
-p {
-    font-family: var(--font-small);
-}
-
-ul,
-li {
-    font-family: var(--font-small);
-}
-
-.frontender {
+a:nth-of-type(2) {
     position: relative;
-    width: 325px;
-    border-radius: 0.5em;
-    max-width: 90%;
 }
 
+
+.zoomin {
+    animation-name: zoomin;
+    animation-duration: 0.4s;
+
+}
+
+@keyframes zoomin {
+    0% {
+        transform: scale(1, 1) translateY(0);
+    }
+
+    50% {
+        transform: scale(2, 2) translateY(0);
+    }
+
+    100% {
+        transform: scale(1, 1) translateY(0);
+    }
+}
+
+/*.....sollicitatie formulier....*/
+.section-formulier {
+    margin: auto;
+    border-radius: 0.5em;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 15em;
+    margin-top: 3em;
+    max-width: 20em;
+    z-index: 1;
+    padding-top: 1em;
+    padding-bottom: 3em;
+    padding-left: 1em;
+    padding-right: 2em;
+    background-color: var(--white);
+    font-family: var(--font-small);
+    box-shadow: 0px -3px 10px 4px rgb(0, 0, 0, 0.1);
+}
+
+.vacature-titel {
+    margin: 24px 0 19px;
+    text-align: center;
+    word-break: break-word;
+}
+
+#input {
+    font-size: 16px;
+    font-family: var(--font-small);
+    width: 20em;
+    height: 2em;
+}
+
+#opleiding {
+    font-size: 16px;
+    font-family: var(--font-small);
+    width: 20em;
+    height: 10em;
+}
+
+#ervaring {
+    font-size: 16px;
+    font-family: var(--font-small);
+    width: 20em;
+    height: 10em;
+}
+
+/*....footer....*/
 footer {
     display: flex;
     flex-direction: column;
@@ -165,9 +264,18 @@ footer {
 
 
 /* PHONE SCREENS (375px <) */
-@media (min-width: 375px) {
+@media (max-width: 342px) {
     .container-desktop {
         display: flex;
         flex-direction: row;
+    }
+
+    .section-vacature1 {
+        margin-top: -7em;
+    }
+
+    .section-formulier {
+        margin-left: 2.6em;
+        margin-right: 2.6em;
     }
 }
