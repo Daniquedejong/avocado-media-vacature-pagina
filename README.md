@@ -1,18 +1,62 @@
-> _Fork_ deze leertaak en ga aan de slag. Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 
-# Titel
-<!-- Geef je project een titel en schrijf in één zin wat het is -->
+# Avocado Media - Vacature pagina
 
-## Beschrijving
-<!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
-<!-- Voeg een mooie poster visual toe 📸 -->
-<!-- Voeg een link toe naar Github Pages 🌐-->
+![Schermafbeelding_20230125_100800](https://user-images.githubusercontent.com/112856683/215750551-8056e673-95c5-4a4b-9d0f-96f6a1512184.png)
 
-## Kenmerken
-<!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met JS gedaan en hoe? -->
+## 📚 Inhoudsopgave
+
+* [Beschrijving](#beschrijving)
+* [Kenmerken](#kenmerken)
+* [Bronnen](#bronnen)
+* [Licentie](#licentie)
+
+## 🗒️ Beschrijving
+<strong>Vacature pagina 🖌️:</strong>
+
+<strong>Opdrachtgever Avocado Media 🥜:</strong>
+<ul>
+<li>Avocado Media is een bedrijf wat sinds 2016 bestaat en er werken zo'n 7 jonge mannen. Ze maken websites voor bedrijven en kunnen dit goed. Zij zijn op zoek naar een nieuw lid voor in hun team van developers. Er bestaat wel een site, maar geen pagina met vacatures. Deze pagina mogen wij voor hen maken.</li>
+</ul>
+
+## 👩🏼‍💻👩🏾‍💻👨🏻‍💻👨🏼‍💻 Kenmerken
+
+Lijst met gebruikte tools, technieken en communicatie middelen.
+
+<ul>
+<li><strong>TOOLS 🧰:</strong></li>
+<li>VSCode</li>
+<li>Pen & Papier</li>
+<li>Laptop</li>
+</ul>
+
+<ul>
+<li><strong>GEBRUIKTE TECHNIEKEN 🛠️:</strong></li>
+<li>HTML</li>
+<li>CSS</li>
+<li>Javascript (menu)</li>
+</ul>
+
+<ul>
+<li><strong>COMMUNICATIE MIDDELEN 🗣️:</strong></li>
+<li>Microsoft Teams</li>
+</ul>
 
 
-## Licentie
+## 🌐 Bronnen
+
+<ul>
+
+<li>https://avocado.media.nl/</li>
+
+<li>https://github.com//</li>
+
+<li>https://www.google.nl/</li>
+
+</ul>
+
+
+
+## 🔒 Licentie
 
 ![GNU GPL V3](https://www.gnu.org/graphics/gplv3-127x51.png)
 
